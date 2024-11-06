@@ -5,7 +5,7 @@ print("(Hint - It's b/w 0 - 100)")
 print("ALL THE BEST !")
 for i in range(3):
     ask = int(input("Guess the no. : "))
-    if ask != 69:
+    if ask != number:
         print("You are Wrong")
     else:
         print("You Win")
